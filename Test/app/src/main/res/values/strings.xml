@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="nate_home">네이트</string>
+    <string name="call">전화걸기</string>
+    <string name="gallery">갤러리</string>
+    <string name="exit">끝내기</string>
+</resources>

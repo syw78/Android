@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="http://web.address"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="글자 나타내기"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="홈페이지 열기"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rboCook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="요리사"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rboFish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="물고기"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ivShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/cook" />
+
+</LinearLayout>

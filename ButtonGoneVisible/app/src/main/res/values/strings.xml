@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ButtonGoneVisible</string>
+    <string name="button1_name">버튼 1</string>
+    <string name="button2_name">버튼 2</string>
+    <string name="button3_name">버튼 3</string>
+    <string name="button4_name">버튼 4</string>
+    <string name="button5_name">버튼 5</string>
+
+</resources>

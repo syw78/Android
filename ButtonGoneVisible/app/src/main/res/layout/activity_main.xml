@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/button1_name"
+        android:textColor="@color/btn_red_color"
+        android:textColorLink="@color/wewew"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xss"
+        android:text="@string/button2_name"
+        android:textColorLink="@color/xss"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button2"
+        android:text="@string/button3_name"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wewew"
+        android:text="@string/button4_name"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_color_state"
+        android:text="@string/button5_name"
+        android:textColor="@color/btn_purple_color"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>
