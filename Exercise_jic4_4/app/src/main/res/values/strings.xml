@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exercise_jic4_4</string>
+    <string name="textView1">선택을 시작하겠습니까?</string>
+    <string name="switch1">시작함</string>
+    <string name="textView2">좋아하는 안드로이드 버전은?</string>
+    <string name="rboR">롤리팝(5.0)</string>
+    <string name="rboM">마시멜로(6.0)</string>
+    <string name="rboN">누가(7.0)</string>
+    <string name="btnExit">종료</string>
+    <string name="btnBefore">처음으로</string>
+</resources>

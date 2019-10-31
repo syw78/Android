@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exercise_Jic4_3</string>
+    <string name="btn1">더하기</string>
+    <string name="btn2">빼기</string>
+    <string name="btn3">곱하기</string>
+    <string name="btn4">나누기</string>
+    <string name="btn5">나머지값</string>
+</resources>

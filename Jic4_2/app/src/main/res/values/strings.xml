@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Jic4_2</string>
+    <string name="button1">버튼 1</string>
+    <string name="textview">여긴 텍스트뷰입니다.</string>
+    <string name="button2">버튼 2</string>
+</resources>
