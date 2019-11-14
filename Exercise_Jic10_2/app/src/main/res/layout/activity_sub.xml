@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="3dp"
+    android:stretchColumns="0">
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/edtText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1" />
+
+    </TableRow>
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="335dp"
+            android:layout_height="169dp"
+            android:layout_weight="1"
+            android:src="@drawable/pic9" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+
+            android:id="@+id/tv01"
+            android:layout_weight="1"
+            android:text="독서하는 소녀"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar01"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv02"
+            android:layout_weight="1"
+            android:text="꽃장식 모자 소녀"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar02"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv03"
+            android:layout_weight="1"
+            android:text="부채를 든 소녀"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar03"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv04"
+            android:layout_weight="1"
+            android:text="이레느깡 단 베르망 "
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar04"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv05"
+            android:layout_weight="1"
+            android:text="잠자는 소녀"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar05"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv06"
+            android:layout_weight="1"
+            android:text="테라스의 두자매"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar06"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv07"
+            android:layout_weight="1"
+            android:text="피아노레슨"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar07"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv08"
+            android:layout_weight="1"
+            android:text="피아노 앞 소녀"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar08"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="3dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv09"
+            android:layout_weight="1"
+            android:text="해변에서"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rbar09"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        >
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="돌아가기"
+            android:textSize="25sp" />
+    </TableRow>
+
+</TableLayout>

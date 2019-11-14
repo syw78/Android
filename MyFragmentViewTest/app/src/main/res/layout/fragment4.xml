@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8ba9f1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ONE CLICK SITE"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/f4BtnSite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="네이버 Click"
+        android:textSize="50sp"
+        android:background="#f1e7b7"/>
+
+
+</LinearLayout>
+</FrameLayout>
