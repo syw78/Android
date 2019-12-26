@@ -24,16 +24,14 @@ public class SubActivity extends AppCompatActivity implements View.OnClickListen
         number2 = intent.getIntExtra("number2",0);
 
 
-
-
     }
 
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(getApplicationContext(),MainActivity.class);
         sum = number1 + number2;
-        intent.putExtra("sum",sum);
-        setResult(1001,intent);
+        intent.putExtra("sum",sum); //값을 넣는다.
+        setResult(1001,intent); //값을 돌려준다. 메인에
         finish();
     }
 }

@@ -7,6 +7,8 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
+    //1번
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"

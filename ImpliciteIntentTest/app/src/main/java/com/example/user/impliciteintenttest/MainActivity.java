@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //정보를 남긴다. 작업창에다가  기록물을 하나 남긴다.
         Log.d("MainActivity","onCreate()");
 
 

@@ -13,11 +13,14 @@ import java.util.ArrayList;
 
 public class MyCustomAdapter extends BaseAdapter{
     //this를 저장할 멤버변수가 필요하다.
-    Context context;
-    int layout;
-    ArrayList<MyCustomDAO> list;
+    Context context; //1번
+    int layout; //2번
+    ArrayList<MyCustomDAO> list; //4번
     private LayoutInflater layoutInflater;
 
+
+    //생성자를 만든다.
+    //일반클래스에서 스스로가 인플렉션을 진행하려면 요청을 해야한다.
     public MyCustomAdapter(Context context, int layout, ArrayList<MyCustomDAO> list) {
         this.context = context;
         this.layout = layout;
@@ -32,23 +35,25 @@ public class MyCustomAdapter extends BaseAdapter{
         return list.size();
     }
 
+    //해당하는 아이템 객체를 주는곳 Null로 표시하지 말고 ArrayList 항목을 던져줘도 된다.
     @Override
     public Object getItem(int position) {
         return list.get(position);
     }
 
+    //해당되는 아이템 위치를 가르킨다.
     @Override
     public long getItemId(int position) {
         return position;
     }
-    //
+    //DataView를 제공받았으면 인플레이트 해야함 객체=findView 찾아야할 데이터를 넣는곳 (자체리턴하게 되면 listview 위치에 매치가 된다고함.)
     @Override
     public View getView(int position, View view, ViewGroup viewGroup) {
       if(view==null){                   //viewGroup넣어줘도됨 널자리에
           view = layoutInflater.inflate(layout,null);
       }
       final TextView textView = view.findViewById(R.id.textView);
-      MyCustomDAO myCustomDAO =list.get(position);
+      MyCustomDAO myCustomDAO =list.get(position); //값을 가져와서 뿌려줘야함.
       textView.setText(myCustomDAO.getStringData());
       textView.setOnClickListener(new View.OnClickListener() {
           @Override

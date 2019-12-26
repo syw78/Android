@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     Button btnAdd;
     EditText edtData;
     ArrayList<String> arrayData= new ArrayList<String>();
-    ArrayAdapter<String> adapter;
+    ArrayAdapter<String> adapter; //뷰와 데이터를 연결해주는역할
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         //4번이 자료제공 데이터 완성이 되었음.
         arrayDataInput();
-        //5번 정의되어 있는 어댑터를 사용한다.(방식설정)                                           //이 부분이 2번
+        //5번 정의되어 있는 어댑터를 사용한다.(방식설정)      화면 설계하는 부분          //이 부분이 2번
         adapter =new ArrayAdapter<String>(this,android.R.layout.simple_list_item_multiple_choice,arrayData);
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         listView.setAdapter(adapter);
@@ -61,16 +61,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
     }
-
+    //추가할때
     @Override
     public void onClick(View view) {
         arrayData.add(edtData.getText().toString().trim());
+        //노티파이 = 값이 변했을때 어댑터한테 다시 뿌려 라고 명령해주는 역할
         adapter.notifyDataSetChanged();
         Toast.makeText(getApplicationContext(),"추가되었습니다",Toast.LENGTH_SHORT).show();
     }
 
     @Override                                                           //포지션 아이디
     public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+        //get(i)는 무엇인가.
         String string = arrayData.get(i);
         arrayData.remove(i);
         adapter.notifyDataSetChanged();

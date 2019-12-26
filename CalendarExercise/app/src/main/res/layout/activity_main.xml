@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="62dp"
+            android:layout_height="49dp"
+            android:background="@drawable/left" />
+        <TextView
+            android:id="@+id/tvYM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="62dp"
+            android:layout_height="49dp"
+            android:background="@drawable/right" />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1">
+       <GridView
+           android:id="@+id/gvCalendar"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:numColumns="7"
+           android:stretchMode="columnWidth"
+           android:horizontalSpacing="1dp"
+           android:verticalSpacing="1dp"
+           android:background="#f2f9f4">
+       </GridView>
+
+   </LinearLayout>
+
+
+</LinearLayout>

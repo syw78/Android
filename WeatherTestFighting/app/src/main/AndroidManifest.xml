@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.weathertestfighting">
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="28" />
+    <!-- 인터넷 접속 허용 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".mid" />
+        <activity android:name=".dongmid" />
+        <activity android:name=".dongmid1" />
+        <activity android:name=".dongmid11" />
+        <activity android:name=".dongmid111" />
+        <activity android:name=".dongmid2" />
+        <activity android:name=".dongmid22" />
+        <activity android:name=".dongmid222" />
+        <activity android:name=".dongmid3" />
+        <activity android:name=".dongmid33" />
+        <activity android:name=".dongmid333" />
+        <activity android:name=".dongmid4" />
+        <activity android:name=".dongmid44" />
+        <activity android:name=".dongmid444" />
+        <activity android:name=".dongmid5" />
+        <activity android:name=".dongmid55" />
+        <activity android:name=".dongmid555" />
+        <activity android:name=".dongmid6" />
+        <activity android:name=".dongmid66" />
+        <activity android:name=".dongmid666" />
+        <activity android:name=".dongmid7" />
+        <activity android:name=".dongmid77" />
+        <activity android:name=".dongmid777" />
+        <activity android:name=".dongmid8" />
+        <activity android:name=".dongmid88" />
+        <activity android:name=".dongmid888" />
+        <activity android:name=".dongmid9" />
+        <activity android:name=".dongmid99" />
+        <activity android:name=".dongmid999" />
+        <activity android:name=".gangneung1" />
+        <activity android:name=".gangneung2" />
+        <activity android:name=".dongmid661" />
+        <activity android:name=".dongmid6661" />
+
+
+        <activity
+            android:name=".area1"
+            android:label="area1" />
+        <activity
+            android:name=".area2"
+            android:label="area2" />
+        <activity
+            android:name=".area3"
+            android:label="area3" />
+        <activity
+            android:name=".area4"
+            android:label="area4" />
+        <activity
+            android:name=".area5"
+            android:label="area5" />
+        <activity
+            android:name=".area6"
+            android:label="area6" />
+        <activity
+            android:name=".area7"
+            android:label="area7" />
+        <activity
+            android:name=".area8"
+            android:label="area8" />
+        <activity
+            android:name=".area9"
+            android:label="area9" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
